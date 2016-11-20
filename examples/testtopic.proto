@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message testtopic {
+    string company = 1;
+    message person {
+        string firstName = 1;
+        string lastName = 2;
+        message address {
+            string street = 1;
+            int32 number = 2;
+            string zip = 3;
+        }
+        address residence = 3;
+    }
+    repeated person persons = 2;
+}

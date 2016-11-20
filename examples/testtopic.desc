@@ -1,0 +1,14 @@
+
+π
+testtopic.proto"ù
+	testtopic
+company (	Rcompany+
+persons (2.testtopic.personRpersons»
+person
+	firstName (	R	firstName
+lastName (	RlastName7
+	residence (2.testtopic.person.addressR	residenceK
+address
+street (	Rstreet
+number (Rnumber
+zip (	Rzipbproto3

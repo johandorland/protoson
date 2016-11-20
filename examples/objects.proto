@@ -1,0 +1,16 @@
+syntax = "proto2";
+
+message scenemessage {
+    required string title = 1;
+    map<string, object> objects = 2;
+}
+message object {
+    required double x = 1;
+    required double y = 2;
+    optional double z = 3;
+    enum Dimension {
+        TWO = 0;
+        THREE = 1;
+    }
+    required Dimension dimensions = 10;
+}

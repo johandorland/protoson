@@ -1,0 +1,32 @@
+{
+  "company": "Awesome INC",
+  "persons": [
+    {
+      "firstName": "Ann",
+      "lastName": "Dryer",
+      "residence": {
+        "street": "bowlingstreet",
+        "number": 1,
+        "zip": "1234 AB"
+      }
+    },
+    {
+      "firstName": "Bobby",
+      "lastName": "Bobson",
+      "residence": {
+        "street": "Drowning street",
+        "number": 10,
+        "zip": "5678 DC"
+      }
+    },
+    {
+      "firstName": "Chuck",
+      "lastName": "Norris",
+      "residence": {
+        "street": "home",
+        "number": 42,
+        "zip": "8421 CN"
+      }
+    }
+  ]
+}
